@@ -1,0 +1,109 @@
+:root{
+    --azul: #1877f2;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    background:#f0f2f5;
+    justify-content: center;
+    display: flex;
+}
+.face-wrapper{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+    margin-top: 92px;
+    background: #fff;
+}
+.logo{
+    width: 240px;
+    display: block;
+    margin: auto;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#perfil{
+    border: 1px solid transparent;
+    border-radius: 60%;
+    width: 64px;
+    height: 64px;
+}
+.enter-account{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+.not-account a{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--azul);
+    line-height:31px;
+    cursor: pointer;
+}
+.text{
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #cacaca;
+    display: flex;
+    margin: auto;
+}
+#enviar{
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: none;
+    display: flex;
+    margin: auto;
+    background-color: var(--azul);
+    margin-top: 12px;
+    justify-content: space-around;
+    color:white;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.log a{
+    color: var(--azul);
+}
+#esc{
+    font-size: 14px;
+}
+.ou{
+    color:#96999e;
+    line-height: 1.34;
+    font-size: 14px;
+}
+.Create-acc{
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: none;
+    display: flex;
+    margin: auto;
+    background-color: #42b72a;
+    margin-top: 12px;
+    justify-content: space-around;
+    color: white;
+}
